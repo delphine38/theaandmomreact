@@ -11,7 +11,8 @@ const Accueil = () =>{
                 <div className="col-6">
                     <h1 className="h1accueil">Théa and Mom's <br />
                         Créations </h1>
-                        <p>De l'Amour, de l'Art et des Paillettes !</p>
+                        <p className="pAmourArtAccueil">De l'Amour, de l'Art et des Paillettes !</p>
+                        <section className="texteAccueil">
                         <p>Bienvenue sur le site de notre Boutique en ligne.</p>
                         <p>Vous y trouverez des bijoux en Résine et Fleurs Naturelles à des prix abordables. Consultez notre catalogue et profitez de votre shopping avec "Théa and Mom's Créations".</p>
                         <p>Théa a 6 ans et moi 36 ans (sa maman , Michèle LANDAIS) réalisons de nombreux bijoux et objets du quotidien avec des fleurs locales que nous séchons ensemble (fleurs d’Isère, Ain, Rhône). Certains Objets sont composés par Théa et d'autre par mes soins, ce sera signalé soit en description soit en #HASHTAG Made by THEA si c'est THEA, ou Made By Mom si c'est moi :-)</p>
@@ -19,6 +20,8 @@ const Accueil = () =>{
 </p>
 <p>Je vous conseille d'aller voir notre page <a href={"https://www.facebook.com/mickaela.land"} target="_blank">Facebook</a> où vous pourrez suivre nos aventures. Contactez-nous pour toute question :-) https://www.facebook.com/TheaAndMom
 </p>
+
+</section>
 
                 </div>
                 <div className="col-6">
