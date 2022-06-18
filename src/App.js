@@ -9,6 +9,8 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Accueil from './components/Accueil';
 import Boutique from './components/Boutique';
+import Apropos from './components/Apropos';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -22,6 +24,10 @@ function App() {
           <Routes>
             <Route path="/accueil" element={<Accueil />} />
             <Route path="/boutique" element={<Boutique />} />
+            
+            <Route path="/apropos" element={<Apropos />} />
+            
+            <Route path="/contact" element={<Contact />} />
             
           </Routes>
         </BrowserRouter>

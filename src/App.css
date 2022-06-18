@@ -25,7 +25,7 @@
 }
 
 .butonContact {
-  margin-left: 1200px;
+  margin-left: 1000px;
   margin-top: 130px;
   background-color: white;
   border: 1px solid #CC0099;
@@ -35,7 +35,17 @@
   color: #CC0099;
 }
 
+/* nav */
+.nav-link:hover {
+  color: #CC0099 !important;
+}
+
+.nav-link-active {
+  color: #CC0099;
+}
+
 .ensemblenav {
+  display: flex;
   background-color: #fff5f5;
   margin-top: 15px;
 }
@@ -55,13 +65,13 @@
   color: red;
 }
 
-.ensemblenav {
+/* .ensemblenav {
   display: flex;
-}
+} */
 
 .athemomcreation {
   margin-top: 40px;
-  margin-left: 1090px;
+  margin-left: 870px;
   text-decoration: none;
   color: black;
 }
@@ -89,6 +99,46 @@
 
 .texteAccueil {
   text-align: center;
+  color: #9900CC;
+  font-weight: bold;
+  margin: 100px;
+}
+
+.aFacebookTexteAccueil {
+  color: #9900CC;
+  font-style: italic;
+}
+
+/* apropos */
+.apropos {
+  background-color: #fff5f5;
+  padding-top: 5px;
+}
+
+.fleurMainTheaApropos {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.fleurMainTheaApropos img {
+  border-radius: 100%;
+  width: 15%;
+
+}
+
+.texteApropos {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.texteApropos h1 {
+  color: #CC0099;
+  margin-bottom: 50px;
+}
+
+.texteApropos {
+  margin-left: 400px;
+  margin-right: 400px;
   color: #9900CC;
   font-weight: bold;
 }

@@ -15,13 +15,23 @@ const Nav = () =>{
     const navigateBoutique=()=>{
         navigate("/boutique");
     }
+
+
+    const navigateAPropos=()=>{
+        navigate("/apropos");
+    }
+
+
+    const navigateContact=()=>{
+        navigate("/contact");
+    }
     return(
         <div>
             <section className="ensemblenav">
                 <article>
                     <ul class="nav">
                         <li class="nav-item">
-                            <a onClick={navigateAccueil}  class="nav-link active" aria-current="page" href="#">Accueil</a>
+                            <a onClick={navigateAccueil}  class="nav-link" activeClassName="nav-link-active" aria-current="page" href="#">Accueil</a>
                         </li>
                         <li class="nav-item">
                             <a onClick={navigateBoutique}  class="nav-link" href="#">Boutique</a>
@@ -30,13 +40,13 @@ const Nav = () =>{
                             <a class="nav-link" href="#">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">A propos</a>
+                            <a onClick={navigateAPropos} class="nav-link" href="#">A propos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a onClick={navigateContact} class="nav-link" href="#">Contact</a>
                         </li>
                     
                     
