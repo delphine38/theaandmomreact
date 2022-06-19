@@ -23,6 +23,7 @@ function App() {
         <BrowserRouter>
           <Nav />
           <Routes>
+            <Route path="/" element={<Accueil />} />
             <Route path="/accueil" element={<Accueil />} />
             <Route path="/boutique" element={<Boutique />} />
             
