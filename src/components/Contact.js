@@ -10,11 +10,8 @@ const Contact = ()=>{
       <div className='container'>
         <div className='row'>
             <div className='nousContacter col-6'>
-                <button className='leBouton'>contact</button>
                 <h3 className='h3Contact'>Nous contacter</h3>
                 <a href='thea.mom.creation@gmail.com' className='aContact'>thea.mom.creation@gmail.com</a>
-
-
             </div>
             <div className='col-6'>
                 <img src={ImageMom} alt="mama de thea" />
