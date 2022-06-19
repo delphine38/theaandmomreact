@@ -11,6 +11,7 @@ import Accueil from './components/Accueil';
 import Boutique from './components/Boutique';
 import Apropos from './components/Apropos';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -36,7 +37,9 @@ function App() {
       <main>
 
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
       
     </div>
   );

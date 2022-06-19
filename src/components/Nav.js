@@ -48,6 +48,10 @@ const Nav = () =>{
                         <li class="nav-item">
                             <a onClick={navigateContact} class="nav-link" href="#">Contact</a>
                         </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link"  href="https://thea-and-mom-creations.over-blog.com/">NewsLetters</a>
+                            {/* <a onClick={navigateContact} class="nav-link" href="#">NewsLetters</a> */}
+                        </li>
                     
                     
                     </ul>

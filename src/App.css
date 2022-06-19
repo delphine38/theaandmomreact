@@ -24,16 +24,24 @@
   color: #e9a9d7;
 }
 
-.butonContact {
+/* .leBouton {
+  background-color: white;
+  border: 1px solid #CC0099;
+  color: #CC0099;
+  ;
+} */
+
+.leBouton {
   margin-left: 1000px;
   margin-top: 130px;
   background-color: white;
   border: 1px solid #CC0099;
-}
-
-.butonContact button {
   color: #CC0099;
 }
+
+/* .leBouton button {
+  color: #CC0099;
+} */
 
 /* nav */
 .nav-link:hover {
@@ -141,4 +149,94 @@
   margin-right: 400px;
   color: #9900CC;
   font-weight: bold;
+}
+
+/* contact */
+.container {
+  padding-top: 150px;
+}
+
+.h3Contact {
+  color: #CC0099;
+  margin-left: 10px;
+}
+
+/* .nousContacter {
+  text-align: center;
+} */
+
+.aContact {
+  color: #9900CC;
+  text-decoration: none;
+}
+
+/* formulaire */
+.formulaire {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.h2Formulaire {
+  color: #9900CC;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* contact */
+.contact {
+  max-width: 500px;
+  margin: 0 auto;
+
+}
+
+.contact label {
+  text-align: left;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+}
+
+input {
+  border: none;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.btnContact {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.pMerciEnvoi {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.aFormulaire {
+  text-decoration: none;
+  color: #CC0099;
+  padding-bottom: 30px;
+}
+
+.facebook {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* footer */
+.footer {
+  background-color: #fff5f5;
+  text-align: center;
+  color: #CC0099;
+}
+
+.aDelphine {
+  color: #CC0099;
 }
