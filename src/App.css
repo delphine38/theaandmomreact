@@ -258,3 +258,48 @@ input {
 .aDelphine {
   color: #CC0099;
 }
+
+
+/* ecran mobile jusqu'à 320px*/
+@media screen and (max-width: 320px) {
+  .h2Header {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .imageHeader {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 50px;
+  }
+
+  .h2Bijoux {
+    font-size: 15px;
+  }
+
+  .h1accueil {
+    margin-left: 50px;
+  }
+
+  .fleuraccueil2 {
+
+    margin-top: 90px;
+  }
+
+  .texteAccueil {
+    /* background-color: red; */
+    width: 250px;
+    margin-left: 50px;
+  }
+
+  .aFacebookTexteAccueil {
+    font-size: 15px;
+    margin-right: 50px;
+  }
+
+  .fleuraccueil2 {
+
+    margin-top: -40px;
+    margin-left: 70px;
+  }
+}

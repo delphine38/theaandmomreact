@@ -10,7 +10,7 @@ const Accueil = () =>{
     return(
         <div>
             <div className="row">
-                <div className="col-6">
+                <div className="col-lg-6 col-sm-6">
                     <h1 className="h1accueil">Théa and Mom's <br />
                         Créations </h1>
                         <p className="pAmourArtAccueil">De l'Amour, de l'Art et des Paillettes !</p>
@@ -26,7 +26,7 @@ const Accueil = () =>{
 </section>
 
                 </div>
-                <div className="col-6">
+                <div className="col-lg-6  col-sm-3">
                     {/* <img src={FleurAccueil} alt="fleur accueil" width="50%" className="fleuraccueil" /> */}
                     <img src={FleurAccueil2} alt="fleur accueil" width="60%" className="fleuraccueil2" />
 
